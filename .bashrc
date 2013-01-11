@@ -1,3 +1,8 @@
+# autocomplete for git in bash
+if [ ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 # set cli input mode to vi
 set -o vi
 
